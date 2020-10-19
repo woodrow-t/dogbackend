@@ -11,7 +11,7 @@ const dogSchema = new Schema(
 );
 
 //DOG MODEL
-const Dog = model("dog", dogSchema);
+const Dog = model("Dog", dogSchema);
 
 //EXPORT MODEL
 module.exports = Dog;
